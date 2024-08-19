@@ -7,8 +7,7 @@
 import React from 'react'
 import './LandingPage.css'
 import NavBar from '../NavBar/NavBar'
-import Aes from '../../assets/aes.mp4'
-import Room from '../../assets/room.jpg'
+import Aes from '../../Assets/aes.mp4'
 
 const LandingPage = () => {
     return (
@@ -17,7 +16,7 @@ const LandingPage = () => {
                 <source src={Aes} type='video/mp4' />
                 Your browser does not support the video tag.
             </video>
-
+           
             {/* <img src={Room} /> */}
             <NavBar />
 

@@ -1,12 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import every from '../../assets/every.mp4';
-import First from '../../assets/FIRST.mp4';
-import Second from '../../assets/SECOND.mp4';
+import './About.css';
+import every from '../../Assets/every.mp4';
+import First from '../../Assets/FIRST.mp4';
+import Second from '../../Assets/SECOND.mp4';
 
 const About = () => {
   return (
-    <div className='flex justify-center px-5'>
+    <div className='flex-row justify-center px-5 '>
       <motion.div className='flex py-12'>
         <motion.div
           className='max-w-xl mr-10'
@@ -44,21 +45,21 @@ const About = () => {
       </motion.div>
 
       <motion.div
-        className='relative w-full h-[85vh] bg-cover bg-no-repeat'  /* bg-[url("../../assets/conference.jpg")] */
+        className='ConfImage'
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.9, ease: 'easeOut' }}
       >
-        <div className="absolute inset-0 bg-gradient-to-l from-black/85 to-transparent flex justify-center items-end flex-col px-10 py-12 text-white">
-          <h2 className='text-4xl font-sans mb-4'>
-            Solutions for Modern Collaboration
-          </h2>
-          <p className='text-base font-sans mb-5'>
-            Today’s modern workplace runs on Microsoft Teams, Zoom, Cisco Webex, and Google Meet. Join online meetings from the conference room with one touch! Aesthetix is a trusted partner of leading software and hardware solutions for the meeting room.
-          </p>
-          <button className="bg-red-700 text-white py-2 px-5 border-3 border-red-700 cursor-pointer w-44 h-12 hover:bg-white hover:text-red-700 transition duration-200">
-            Talk To An Expert
-          </button>
+        <div className="overlay">
+          <div className='confText'>
+            <div className='confHead'>
+              Solutions for Modern Collaboration
+            </div>
+            <div className='confPara'>
+              Today’s modern workplace runs on Microsoft Teams, Zoom, Cisco Webex, and Google Meet. Join online meetings from the conference room with one touch! Aesthetix is a trusted partner of leading software and hardware solutions for the meeting room.
+            </div>
+            <button type="submit" className="talk-btn">Talk To An Expert</button>
+          </div>
         </div>
       </motion.div>
 

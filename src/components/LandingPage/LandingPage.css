@@ -154,10 +154,10 @@ body{
   position: relative;
   width: 100vw;
   height: 100vh;
-  /* overflow: hidden;
-  background-image: url('../../assets/room.jpg');
+  overflow: hidden;
+  background-image: url('../../Assets/room.jpg');
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
 }
 
 .background-video {

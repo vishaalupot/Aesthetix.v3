@@ -53,7 +53,7 @@
 }
 
 .ConfImage{
-    /* background-image: url('../../assets/conference.jpg'); */
+    background-image: url('../../Assets/conference.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
