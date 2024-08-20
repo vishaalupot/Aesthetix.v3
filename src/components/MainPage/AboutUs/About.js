@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './About.css';
-import every from '../../Assets/every.mp4';
-import First from '../../Assets/FIRST.mp4';
-import Second from '../../Assets/SECOND.mp4';
+import every from '../../../Assets/every.mp4';
+import First from '../../../Assets/FIRST.mp4';
+import Second from '../../../Assets/SECOND.mp4';
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
       <motion.div className='flex py-12'>
         <motion.div
           className='max-w-xl mr-10'
-          initial={{ opacity: 0, x: -100 }}
+          initial={{ opacity: 0, x: -100 }}  
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.9, ease: 'easeOut' }}
         >

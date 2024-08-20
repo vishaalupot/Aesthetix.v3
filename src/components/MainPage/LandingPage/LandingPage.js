@@ -6,8 +6,8 @@
 
 import React from 'react'
 import './LandingPage.css'
-import NavBar from '../NavBar/NavBar'
-import Aes from '../../Assets/aes.mp4'
+import NavBar from '../../NavBar/NavBar'
+import Aes from '../../../Assets/aes.mp4'
 
 const LandingPage = () => {
     return (
