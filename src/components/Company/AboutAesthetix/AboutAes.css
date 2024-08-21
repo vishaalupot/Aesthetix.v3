@@ -1,0 +1,43 @@
+.WeImage{
+    background-image: url('../../../Assets/GrpPic.jpeg');
+    height: 70vh;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.overLay{
+    background-color: rgba(0, 0, 0, 0.63);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    flex-direction: column;
+    text-align: center;
+    background-color: #00000024;
+}
+
+.process{
+    background-color: #00000024;
+    height: 80vh;
+    position: relative;
+    top: 100px;
+}
+
+/* .svg-container{
+    position: absolute;
+    top: -197px;
+    left: 0;
+    width: 100%; 
+    height: 100px; 
+    z-index: 5; 
+} */

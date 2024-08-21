@@ -6,6 +6,8 @@
     font-weight: 700;
     background-color: rgba(0, 0, 0, 0.37);
     width: 100%;
+    POSITION: absolute;
+    Z-INDEX: 100;
 }
 
 .logo{
