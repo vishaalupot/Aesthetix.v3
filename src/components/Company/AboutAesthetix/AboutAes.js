@@ -2,6 +2,19 @@ import React from 'react'
 import './AboutAes.css'
 import NavBar from '../../NavBar/NavBar'
 import Connecting from '../../../Assets/connecting.jpg'
+import one from '../../../Assets/1.png'
+import two from '../../../Assets/2.png'
+import three from '../../../Assets/3.png'
+import four from '../../../Assets/4.png'
+import five from '../../../Assets/5.png'
+import project1 from '../../../Assets/project1.jpg';
+import project2 from '../../../Assets/project2.jpg';
+import project3 from '../../../Assets/project3.jpg';
+import project4 from '../../../Assets/project4.jpg';
+import project5 from '../../../Assets/project5.jpg';
+import project6 from '../../../Assets/project6.jpg';
+import Footers from '../../MainPage/Footer/Footers'
+
 
 const AboutAes = () => {
     return (
@@ -49,11 +62,80 @@ const AboutAes = () => {
                     />
                 </svg>
             </div> */}
-                <div>Our Process</div>
-                <div>Backed by the industry's most experienced and dedicated professionals, Avidex designs, builds, and supports custom audio visual and unified communications solutions for organizations of all kinds. </div>
-            
-
+                <div className='text-3xl text-black flex align-center items-center justify-center'>Our Process</div>
+                <div className='text-1xl text-black flex justify-center text-center'>Backed by the industry's most experienced and dedicated professionals, Avidex designs, builds, and supports custom audio visual and unified communications solutions for organizations of all kinds. </div>
+                
+                <div className='flex flex-wrap'>
+            <div className='flex flex-col md:flex-row  justify-center item-center'>
+                <div className='flex flex-1 p-2 flex-col justify-center items-center'>
+                    <img src={one} className='h-[50px] w-[50px]' />
+                    <div>We invest in listening and understanding your vision and requirements to help you best define your project scope for your needs today and for future expansion.</div>
+                </div>
+                <div className='flex flex-1 p-2 flex-col justify-center items-center'>
+                    <img src={two} className='h-[50px] w-[50px]' />
+                    <div>Our award-winning AV design and engineering experts recommend and design reliable, cost-effective AV and UC solutions to meet your objectives, timeline, and collaboration needs.</div>
+                </div>
             </div>
+            <div className='flex flex-col md:flex-row md:w-full'>
+                <div className='flex flex-1 p-2 flex-col justify-center items-center'>
+                    <img src={three} className='h-[50px] w-[50px]' />
+                    <div>Our Professional Services team handles all aspects of your project from project management, procurement, logistics, installation, testing, documentation, and training for the best customer experience in the industry.</div>
+                </div>
+                <div className='flex flex-1 p-2 flex-col justify-center items-center'>
+                    <img src={four} className='h-[50px] w-[50px]' />
+                    <div>Avidex combines the best manufacturer-trained and certified industry professionals with our comprehensive 360° Service™ managed services portfolio to fully support our client’s complete audiovisual needs.</div>
+                </div>
+                <div className='flex flex-1 p-2 flex-col justify-center items-center'>
+                    <img src={five} className='h-[50px] w-[50px]' />
+                    <div>With over 17 years in the Pro AV business, much of our success comes from repeat clients. Avidex continues our valued partnerships by designing and integrating world-class audiovisual systems with excellence in design and innovation with a focus on integrity and quality.</div>
+                </div>
+            </div>
+            </div>
+            </div>
+            
+            <div className='projectsSection'>
+                <div>Types of Projects We Have Done</div>
+                    <div className="container">
+                    <div className="projectBox" style={{ backgroundImage: `url(${project1})` }}>
+                        <div className='overLay'></div>
+                        <div className='absolute bottom-0 left-0 w-full p-4 text-2xl text-white z-10'>
+                        Corporate</div>
+                    </div>
+                    <div className="projectBox" style={{ backgroundImage: `url(${project2})` }}>
+                    <div className='overLay'></div>
+                    <div className='absolute bottom-0 left-0 w-full p-4 text-2xl text-white z-10'>
+                            Education</div>
+                    </div>
+                    <div className="projectBox" style={{ backgroundImage: `url(${project3})` }}>
+                    <div className='overLay'></div>
+                    <div className='absolute bottom-0 left-0 w-full p-4 text-2xl text-white z-10'>Government</div>
+                    </div>
+                    <div className="projectBox" style={{ backgroundImage: `url(${project4})` }}>
+                    <div className='overLay'></div>
+                    <div className='absolute bottom-0 left-0 w-full p-4 text-2xl text-white z-10'>House of Worship</div>
+                    </div>
+                    <div className="projectBox" style={{ backgroundImage: `url(${project5})` }}>
+                    <div className='overLay'></div>
+                    <div className='absolute bottom-0 left-0 w-full p-4 text-2xl text-white z-10'>Sports</div>
+                    </div>
+                    <div className="projectBox" style={{ backgroundImage: `url(${project6})` }}>
+                    <div className='overLay'></div>
+                    <div className='absolute bottom-0 left-0 w-full p-4 text-2xl text-white z-10'>Transportation</div>
+                    </div>
+                    </div>
+            </div>
+            <div style={{height: '40vh', display: 'flex', justifyContent:'center', alignItems: 'center', flexDirection: 'column'}}>
+            <div style={{position: 'relative', top: '0', width: '60px', height: '3px', backgroundColor: 'rgb(120, 68, 172)', borderRadius: '4px', margin: '10px'}}></div>
+
+                <div className='helpHead'>
+                    HOW CAN WE HELP ?
+                </div>
+                <div className='helpText'>
+                    Connect with one of our audiovisual experts and start creating an unforgettable AV experience today!
+                </div>
+                <input type='button' className='TouchButton' value="GET IN TOUCH" /> 
+            </div>
+            <Footers />
         </div>
     )
 }

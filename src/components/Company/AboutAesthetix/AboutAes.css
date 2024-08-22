@@ -28,9 +28,10 @@
 
 .process{
     background-color: #00000024;
-    height: 80vh;
+    height: 100%;
     position: relative;
-    top: 100px;
+    padding: 50px;
+    position: relative;
 }
 
 /* .svg-container{
@@ -41,3 +42,67 @@
     height: 100px; 
     z-index: 5; 
 } */
+
+.projectsSection{
+    height: 100%;
+    position: relative;
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust the gap between the boxes as needed */
+    margin: auto;
+  }
+  
+  .projectBox {
+    height: 150px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  /* Mobile screen */
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .overLay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.233);
+  }
+  
+  .helpHead{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(120, 68, 172);
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.helpText{
+    font-family: "Open Sans", sans-serif;
+    color: #444;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+.TouchButton{
+    background-color: rgb(120, 68, 172);
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 10px 0px;
+}

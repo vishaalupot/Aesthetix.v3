@@ -9,11 +9,11 @@ import AboutAes from '../components/Company/AboutAesthetix/AboutAes';
 const Home = () => {
     return (
         <div>
-            {/* <AboutAes /> */}
-            <LandingPage />
+            <AboutAes />
+            {/* <LandingPage />
             <AboutUs />
             <Partners />
-            <Footer />
+            <Footer /> */}
         </div>
     )
 }
