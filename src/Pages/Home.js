@@ -10,12 +10,12 @@ import Culture from '../components/Company/Culture/Culture';
 const Home = () => {
     return (
         <div>
-            <Culture />
+            {/* <Culture /> */}
             {/* <AboutAes /> */}
-            {/* <LandingPage />
+            <LandingPage />
             <AboutUs />
             <Partners />
-            <Footer /> */}
+            <Footer />
         </div>
     )
 }
