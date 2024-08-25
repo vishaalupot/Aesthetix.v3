@@ -155,7 +155,7 @@ body{
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-image: url('../../../Assets/room.jpg');
+  background-image: url('../../../assets/room.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import './NavBar.css'
-import logo from '../../Assets/logo1.png'
-import search from '../../Assets/search.png'
+import logo from '../../assets/logo1.png'
+import search from '../../assets/search.png'
 
 const NavBar = () => {
     return (

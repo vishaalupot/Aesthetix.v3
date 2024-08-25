@@ -1,18 +1,18 @@
 import React from 'react'
 import './AboutAes.css'
 import NavBar from '../../NavBar/NavBar'
-import Connecting from '../../../Assets/connecting.jpg'
-import one from '../../../Assets/1.png'
-import two from '../../../Assets/2.png'
-import three from '../../../Assets/3.png'
-import four from '../../../Assets/4.png'
-import five from '../../../Assets/5.png'
-import project1 from '../../../Assets/project1.jpg';
-import project2 from '../../../Assets/project2.jpg';
-import project3 from '../../../Assets/project3.jpg';
-import project4 from '../../../Assets/project4.jpg';
-import project5 from '../../../Assets/project5.jpg';
-import project6 from '../../../Assets/project6.jpg';
+import Connecting from '../../../assets/connecting.jpg'
+import one from '../../../assets/1.png'
+import two from '../../../assets/2.png'
+import three from '../../../assets/3.png'
+import four from '../../../assets/4.png'
+import five from '../../../assets/5.png'
+import project1 from '../../../assets/project1.jpg';
+import project2 from '../../../assets/project2.jpg';
+import project3 from '../../../assets/project3.jpg';
+import project4 from '../../../assets/project4.jpg';
+import project5 from '../../../assets/project5.jpg';
+import project6 from '../../../assets/project6.jpg';
 import Footers from '../../MainPage/Footer/Footers'
 
 
