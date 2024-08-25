@@ -1,34 +1,53 @@
-.mainNav{
-    display: flex;
-    align-items: center;
-    height: 70px;
-    color: rgb(255, 255, 255);
-    font-weight: 700;
-    background-color: rgba(0, 0, 0, 0.37);
-    width: 100%;
-    POSITION: absolute;
-    Z-INDEX: 100;
+/* From Uiverse.io by alexmaracinaru */ 
+.cta {
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
-.logo{
-    height: 50px;
-    width: 100%;
-    position: relative;
-    left: 80px;
+.cta span {
+  padding-bottom: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+
 }
 
-.block_1{
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
 }
 
-.block_2{
-    display: flex;
-    margin-left: auto;
-    padding: 50px;
-    
+.cta:hover svg {
+  transform: translateX(0);
+  color: #011428;
 }
 
-.butt{
-    font-family: "Open Sans", sans-serif;
-    padding: 0px 20px;
-    font-weight: 400;
+.cta:active svg {
+  transform: scale(0.9);
 }
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #011428;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* asdasddas */

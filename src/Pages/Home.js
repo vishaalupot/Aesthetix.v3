@@ -13,9 +13,9 @@ const Home = () => {
             {/* <Culture /> */}
             {/* <AboutAes /> */}
             <LandingPage />
-            <AboutUs />
+            {/* <AboutUs />
             <Partners />
-            <Footer />
+            <Footer /> */}
         </div>
     )
 }
