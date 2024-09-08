@@ -12,6 +12,8 @@ import m4 from '../../../assets/mission4.webp'
 import m5 from '../../../assets/mission5.webp'
 import m6 from '../../../assets/mission6.webp'
 import ceo from '../../../assets/dp.jfif'
+import career from '../../../assets/career.webp'
+import Footers from '../../MainPage/Footer/Footers'
 
 const Culture = () =>{
     return(
@@ -19,7 +21,7 @@ const Culture = () =>{
             <NavBar />
             <div className='WeImage'>
                 <div className='overLay'></div>
-                <div className='text-6xl text-white z-10'>We are Aesthetix</div>
+                <div className='text-[40px] text-white z-10 font font-bold'>OUR PEOPLE & CULTURE</div>
                 <div className='text-1xl text-white z-10 pt-3'> AV Innovation improving the way we work, learn and live.</div>
             </div>
             <div className='About'>
@@ -116,7 +118,7 @@ const Culture = () =>{
 
             </div>
 
-            <div className='text-center flex contents-center flex-col p-[20px] height-[max-content]'>
+            <div className='text-center flex contents-center flex-col height-[max-content]'>
                 <div className='text-3xl text-black font-medium'>Life At Aesthetix</div>
 
                 <div className='text-2xl text-black font-normal'>
@@ -137,14 +139,65 @@ const Culture = () =>{
                 
             </div>
 
-            <div className='OurLeaders'>
-                    <div>EXECUTIVE LEADERSHIP TEAM</div>
-                    
-                    <div className='heroCard'>
-                        <img src={ceo} className='h-[150px]'/>
+        <div className='OurLeaders p-10 h-[80vh]'>
+            <div className='text-3xl text-black text-center font-bold  p-[20px]'>EXECUTIVE LEADERSHIP TEAM</div>
+            
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center'>
+            <div className='heroCard mx-auto'>
+                <img src={ceo} className='h-[250px] w-[100%]'/>
+                <div className='font-bold px-[20px] py-[10px]'>Vishaal S Upot</div>
+                <div className='font-medium px-[20px] pb-[20px]'>CEO, <br /> Brics Tech</div>
+            </div>
 
-                    </div>
+            <div className='heroCard mx-auto'>
+                <img src={ceo} className='h-[250px] w-[100%]'/>
+                <div className='font-bold px-[20px] py-[10px]'>Vishaal S Upot</div>
+                <div className='font-medium px-[20px] pb-[20px]'>CEO, <br /> Brics Tech</div>
+            </div>
+
+            <div className='heroCard mx-auto'>
+                <img src={ceo} className='h-[250px] w-[100%]'/>
+                <div className='font-bold px-[20px] py-[10px]'>Vishaal S Upot</div>
+                <div className='font-medium px-[20px] pb-[20px]'>CEO, <br /> Brics Tech</div>
+            </div>
+
+            <div className='heroCard mx-auto'>
+                <img src={ceo} className='h-[250px] w-[100%]'/>
+                <div className='font-bold px-[20px] py-[10px]'>Vishaal S Upot</div>
+                <div className='font-medium px-[20px] pb-[20px]'>CEO, <br /> Brics Tech</div>
+            </div>
+            </div>
+        </div>
+
+        <div className='h-[70vh]'>
+            <div className='text-3xl font-bold flex justify-center align-middle py-[30px]'>DIVERSITY & INCLUSION</div>
+            <div className='text-2xl font-medium flex justify-center align-middle py-[20px]'>Diversifying the way we work, learn, and live to connect people and organizations.</div>
+
+            <div className='text-[20px] font-normal flex justify-center align-middle text-center leading-relaxed w-[1200px] m-auto'>
+            Avidex recognizes that an inclusive and diverse work environment respects the unique characteristics, skills, and experiences of all employees, partners, and customers. At Avidex our mission is to provide audiovisual solutions and services that enhance communication and improve the way people work, learn, and live. We recognize, respect, and appreciate our diverse and unique global workforce and its commitment to our mission and values. That translates into maintaining a culture where individual strengths, combined with teamwork, are recognized as the foundation of our mutual success. We value the different perspectives that each of us brings to the work environment, our company, and our customers.
+
+Avidex strives to foster belonging and empowerment at work through our commitment to promote accountability, integrity, passion, teamwork, and innovation among people from diverse backgrounds. In this environment, these values guide the efforts of all of our team members, as well as Avidex’s policies and practices.
+
+Avidex will continue to empower and understand how to lead diverse groups of employees to achieve success and live out our mission. It is also imperative that Avidex attracts and develops the best candidates in an increasingly more diverse talent pool to be the leader in collaborative solutions, connecting people and organizations today and in the future.
+            </div>
+        </div>
+
+        <div className='h-[20vh] backdrop-brightness-95 flex justify-center align-middle items-center text-center font-bold text-4xl'>
+           CAREERS AT AESTHETIX
+        </div>
+
+        <div className='flex flex-row w-[1300px] m-[auto] h-[70vh]'>
+            <img src={career} style={{height: '500px', padding:'40px'}}/>
+
+            <div>
+                <div className='text-3xl py-[20px] font-bold'>Join Our Team</div>
+                <div className='text-[20px] py-[20px] font-medium'>
+                When you join the Avidex team, you join a team of passionate, creative, top-notch AV industry professionals. You will enjoy a company culture where ideas are encouraged, creativity flourishes, hard work is valued, and results are rewarded. Furthermore, Avidex is fundamentally committed to the success and continued professional development of each of its employees. Avidex provides extensive and ongoing training such as manufacturer training and certification, as well as industry training such as AVIXA's CTS programs and Project Management Institute's PMP certification. We are an equal opportunity employer and attract and retain qualified candidates through experience-and-knowledge-based selection.
                 </div>
+            </div>
+        </div>
+
+        <Footers />
         </div>
     )
 }

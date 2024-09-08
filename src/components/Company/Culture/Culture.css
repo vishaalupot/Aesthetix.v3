@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 .WeImage{
     background-image: url('../../../assets/GrpPic.jpeg');
     height: 70vh;
@@ -85,12 +87,22 @@
     grid-template-columns: repeat(4, 1fr);
     margin: auto;
     width: max-content;
-    height: 50vh;
+    height: max-content;
     background-color: white;
     margin: 0px 20px;
   }
 
   .heroCard{
-        width: 200px;
-        height: 300px;
+        background-color: white;
+        width: 250px;
+        height: max-content;
+  }
+
+  .OurLeaders{
+    background-color: #00000024;
+  }
+
+  .font{
+    font-family: "Open Sans", sans-serif;
+
   }
