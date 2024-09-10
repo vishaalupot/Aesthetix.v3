@@ -5,12 +5,16 @@ import Footer from '../components/MainPage/Footer/Footers';
 import LandingPage from '../components/MainPage/LandingPage/LandingPage';
 import AboutAes from '../components/Company/AboutAesthetix/AboutAes';
 import Culture from '../components/Company/Culture/Culture';
+import Location from '../components/Company/Locations/Location';
+import Support from '../components/Company/CallSupport/Support';
 
 
 const Home = () => {
     return (
         <div>
-            <Culture />
+            <Support />
+            {/* <Location /> */}
+            {/* <Culture /> */}
             {/* <AboutAes /> */}
             {/* <LandingPage /> */}
             {/* <AboutUs />
