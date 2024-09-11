@@ -44,18 +44,16 @@ const Location = () =>{
             </div>
 
             <div>
-            <svg viewBox="0 0 200 200">
+            <svg viewBox="0 0 500 200" style={{bottom: '-15px', position: 'relative'}}>
                 <path d="M 0 170 C 120 200 350 100 500 180 L 500 200 L 0 200 Z" fill="rgb(57, 27, 112)"></path>
             </svg>
-
             <div className='supportDesign'>
 
             </div>
-            <svg viewBox="0 0 500 200">
+            <svg viewBox="0 0 500 200" style={{top: '-15px', position: 'relative'}}>
                 <path d="M 0 30 C 150 100 280 0 500 20 L 500 0 L 0 0" fill="rgb(57, 27, 112)"></path>
             </svg>
             </div>
-            
         </div>
     )
 }
