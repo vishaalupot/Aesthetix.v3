@@ -12,8 +12,8 @@ import Support from '../components/Company/CallSupport/Support';
 const Home = () => {
     return (
         <div>
-            <Support />
-            {/* <Location /> */}
+            {/* <Support /> */}
+            <Location />
             {/* <Culture /> */}
             {/* <AboutAes /> */}
             {/* <LandingPage /> */}
