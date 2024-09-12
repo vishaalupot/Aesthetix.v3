@@ -17,7 +17,7 @@ import Footers from '../../MainPage/Footer/Footers'
 
 const Culture = () =>{
     return(
-        <div>
+        <div className='font'>
             <NavBar />
             <div className='WeImage'>
                 <div className='overLay'></div>
@@ -25,8 +25,8 @@ const Culture = () =>{
                 <div className='text-1xl text-white z-10 pt-3'> AV Innovation improving the way we work, learn and live.</div>
             </div>
             <div className='About'>
-                <div className='text-3xl text-black my-5 z-10'>Connecting people through innovation</div>
-                <div className='text-1xl text-black z-10'>
+                <div className='text-2xl primaryH font-bold my-5 z-10'>CONNECTING PEOPLE THROUGH INNOVATION</div>
+                <div className='text-1xl primaryP text-black z-10'>
                 The experienced professionals of the Avidex team represent the best in the audiovisual industry. With our year-over-year growth, Avidex continues to enhance our team by adding individuals who can provide excellent service while promoting a culture that reflects our company values. If you're seeking a rewarding career with a top-tier AV integrator, apply for an open position today.                </div>
             </div>
             <div className='cards'>
