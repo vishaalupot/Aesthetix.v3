@@ -7,7 +7,7 @@ const Location = () =>{
         <div>
             <NavBar />
             <div className='locationCover'>
-                <div className='overLay'>
+                <div className='overLays'>
                     <div className='text-4xl text-white font-bold py-[15px]'>OUR LOCATIONS</div>
                     <div className='text-1xl text-white font-medium text-center' >Avidex delivers innovative AV solutions that enable organizations and enterprises to collaborate, create, and share ideas through state-of-the-art audiovisual and unified communication technologies. Avidex specializes in creating an unparalleled client experience in the use of collaborative audiovisual solutions as a global pro-AV integrator providing design, build, and service excellence.</div>
                 </div>
